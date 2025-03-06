@@ -2,8 +2,6 @@ name: Build Python Wheels
 
 on:
   push:
-    tags:
-      - '*'  # Trigger workflow on new tag releases
 
 jobs:
   build_wheels:
